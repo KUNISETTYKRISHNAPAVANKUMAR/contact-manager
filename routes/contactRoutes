@@ -1,0 +1,15 @@
+let express=require("express")
+const { getContacts, updateContact, createContact, deleteContact, getOneContacts } = require("../Controllers/contactController")
+const validateTokenHandler = require("../middleware/validateTokenHandler")
+
+let router=express.Router()
+//it is middleware that authenticates user.If they are auhtenticated next() method will called else error handler executes
+router.use(validateTokenHandler)
+
+//since they are having same route we can chain them
+router.route("/").get(getContacts).post(createContact)
+
+router.route("/:id").put(updateContact).delete(deleteContact).get(getOneContacts)
+
+
+module.exports=router
