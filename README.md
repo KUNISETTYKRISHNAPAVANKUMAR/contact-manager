@@ -23,5 +23,8 @@ A web-based application for managing contacts, allowing users to store, update, 
 ![Screenshot (193)](https://github.com/user-attachments/assets/ec8907fb-bcf1-4c73-97aa-581ff35d6b10)
 ### Create Contact
 ![Screenshot (190)](https://github.com/user-attachments/assets/397724fb-d684-4f4a-8307-b0c191fc7258)
+### View Contacts
+![Screenshot (191)](https://github.com/user-attachments/assets/cae7045f-1a2f-450b-9135-b6d2370da2f9)
+
 ### Edit Contact
 ![Screenshot (197)](https://github.com/user-attachments/assets/518d206a-a03b-4958-b7c2-21ece701af1d)
